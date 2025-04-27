@@ -2,7 +2,7 @@
 
 A responsive menu page implementing core web development concepts with three breakpoints. Created for the _HTML, CSS, and JavaScript for Web Developers_ course.
 
-![Responsive Preview](https://ahsankhizar5.github.io/assignment2/)
+Live Preview: https://ahsankhizar5.github.io/assignment2/
 
 ## 📚 Table of Contents
 
@@ -33,9 +33,9 @@ A responsive menu page implementing core web development concepts with three bre
 ## 📂 Structure
 
 module2-solution/
-├── index.html # Main document
+├── index.html
 └── css/
-└── styles.css # Responsive styles
+└── styles.css
 
 ## ⚙️ Installation
 
@@ -43,17 +43,22 @@ module2-solution/
 
 ```bash
 git clone https://github.com/ahsankhizar5/assignment2.git
+```
 
-Navigate to project:
+## Navigate to project:
 
-bash
+```bash
 cd module2-solution
-Open in browser:
+```
 
-bash
+## Open in browser:
+
+```bash
 open index.html
+```
 
-🖱️ Usage
+## 🖱️ Usage
+
 Test responsiveness using:
 
 Browser DevTools device toolbar
@@ -62,14 +67,19 @@ Physical devices (recommended)
 
 Online responsive test tools
 
-Keyboard Shortcuts
+## Keyboard Shortcuts
+
+```bash
 <kbd>Ctrl</kbd>+<kbd>+</kbd>/<kbd>-</kbd> Zoom
 <kbd>F12</kbd> Open DevTools
+```
 
-💻 Technical Highlights
+## 💻 Technical Highlights
+
+```bash
 css
-/* Core responsive logic */
-@media (max-width: 767px) { /* Mobile styles */ }
-@media (min-width: 768px) and (max-width: 991px) { /* Tablet */ }
-@media (min-width: 992px) { /* Desktop */ }
+/_ Core responsive logic _/
+@media (max-width: 767px) { /_ Mobile styles _/ }
+@media (min-width: 768px) and (max-width: 991px) { /_ Tablet _/ }
+@media (min-width: 992px) { /_ Desktop _/ }
 ```
